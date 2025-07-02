@@ -27,4 +27,6 @@ sudo docker run atuljkamble/pythonhelloworld
 sudo docker container ls
 sudo docker ps -a
 sudo docker push atuljkamble/pythonhelloworld
+sudo docker pull atuljkamble/pythonhelloworld
+sudo docker run atuljkamble/pythonhelloworld
 ```
