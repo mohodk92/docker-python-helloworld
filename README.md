@@ -1,5 +1,10 @@
 # docker-python-helloworld
 Dockerise Python Code
+
+```
+git clone https://github.com/atulkamble/docker-python-helloworld.git
+cd docker-python-helloworld
+```
 ```
 sudo yum install python -y
 python --version
