@@ -2,7 +2,7 @@
 Dockerise Python Code
 
 ```
-git clone https://github.com/atulkamble/docker-python-helloworld.git
+git clone https://github.com/mohodk92/docker-python-helloworld.git
 cd docker-python-helloworld
 ```
 ```
@@ -26,12 +26,12 @@ sudo nano dockerfile
 cat dockerfile 
 cat helloworld.py 
 python3 helloworld.py 
-sudo docker build -t atuljkamble/pythonhelloworld .
+sudo docker build -t mohodk92/pythonhelloworld .
 sudo docker images
-sudo docker run atuljkamble/pythonhelloworld
+sudo docker run mohodk92/pythonhelloworld
 sudo docker container ls
 sudo docker ps -a
-sudo docker push atuljkamble/pythonhelloworld
-sudo docker pull atuljkamble/pythonhelloworld
-sudo docker run atuljkamble/pythonhelloworld
+sudo docker push mohodk92/pythonhelloworld
+sudo docker pull mohodk92/pythonhelloworld
+sudo docker run mohodk92/pythonhelloworld
 ```
